@@ -89,6 +89,13 @@
     top: -10px;
     z-index: 100;
 }
+
+.banner{
+    background-image: url("img/white-brick.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.8;
+}
 .top-header {
     font-family: 'Oxygen', sans-serif;
     font-size: 6vmin; 
