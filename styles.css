@@ -69,6 +69,18 @@
 #shelina {
     background-color:#E3E3E3 ;
 }
+.contact-social {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 1em;
+}
+
+#ig, #li, #gh {
+    max-width: 5%;
+    max-height: 5%;
+    padding: 1em;
+}
 .nav-bar {
     background-color: #323232;
     font-family: Arial, Helvetica, sans-serif;
@@ -262,6 +274,7 @@ h2 {
     margin-top: .3em;
     margin-bottom: .7em;
     font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
     color: #f8f8f8;
 }
 ul {
