@@ -140,6 +140,31 @@ html {
   min-width: 3em;
   min-height: 1em; }
 
+@keyframes wiggle {
+  0% {
+    padding-top: 20px; }
+  50% {
+    padding-top: 32px; }
+  100% {
+    padding-top: 20px; } }
+.arrow {
+  position: absolute;
+  right: 0;
+  left: 0;
+  height: 300px;
+  font-family: "Crimson Text", serif;
+  color: #323232;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 38px;
+  text-align: center;
+  padding-top: 20px;
+  animation-name: wiggle;
+  animation-duration: 1.6s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: normal; }
+
 .banner-content {
   min-width: 3em;
   min-height: 1em; }
