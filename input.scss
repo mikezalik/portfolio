@@ -150,37 +150,39 @@ $color-primary-2: #E3E3E3;
     border-style: solid;
     border-radius: 5px;
     border-color: #323232; */
-    min-width: 0%;
     max-width: 75%;
     margin-left: auto;
     margin-right: auto;
     margin-top: 75px;
     margin-bottom: 75px;
 }
-
-  @media all and (max-width: 1280px){
-    .top-header{
-        padding: .5em;
-        border: none;
-        line-height: 1em;
-        text-align: center;
-        margin: auto;
-        justify-content: center;
-        max-width: 100%;
-    }
+@media all and (max-width: 1280px){
+  .top-header{
+    box-sizing: content-box;
+      padding: .5em;
+      border: none;
+      line-height: 1em;
+      text-align: center;
+      margin: auto;
+      justify-content: center;
+      max-width: 100%;
+  }
 }
+
   @media all and (max-width: 780px) {
     .top-header {
+      box-sizing: content-box;
         border: none;
         line-height: 1em;
         text-align: center;
         margin-left: auto;
-        margin-right: 1.5em;
-        padding: .5em;
+        margin-right: auto;
+        padding: 1em;
         justify-content: center;
-        max-width: 100%;
+        max-width: 75%;
     }
  }
+
 
 .nav-link {
     padding: 1em;
