@@ -21,6 +21,12 @@ $color-primary-2: #E3E3E3;
 @media all and (max-width: 736px)
 @media all and (max-width: 480px) */
 
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
 #about {
     display: flex;
     flex-direction: column;
@@ -139,6 +145,13 @@ $color-primary-2: #E3E3E3;
     background-size: cover;
     background-repeat: no-repeat;
     opacity: 0.8;
+    min-width: 3em;
+    min-height: 1em;
+}
+
+.banner-content {
+  min-width: 3em;
+  min-height: 1em;
 }
 .top-header {
     font-family: $font-header;
@@ -146,10 +159,10 @@ $color-primary-2: #E3E3E3;
     color:$fade-black;  
     text-align: center;
     padding: 1em;
-    /* border-width: 5px;
+    border-width: 5px;
     border-style: solid;
     border-radius: 5px;
-    border-color: #323232; */
+    border-color: $fade-black;
     max-width: 75%;
     margin-left: auto;
     margin-right: auto;
@@ -222,10 +235,9 @@ $color-primary-2: #E3E3E3;
     padding:12em;
   }
 }
-
-  @media all and (min-width: 780px){
+  @media all and (max-width: 780px){
   .banner {
-    padding:6em;
+    padding:5em;
   }
 }
   @media all and (max-width: 480px){
@@ -233,12 +245,10 @@ $color-primary-2: #E3E3E3;
     padding: 4em;
   }
 }
-
 #img-proj{
     max-width: 25%;
     max-height: 25%;
 }
-
   @media all and (max-width: 480px){
     #img-proj{
         max-width: 50%;
@@ -257,7 +267,6 @@ $color-primary-2: #E3E3E3;
         max-height: 25%;
     }
 }
-
 a {
     color: $off-white;
     font-family: $font-body;
@@ -300,6 +309,10 @@ body {
         max-width: 100%;
         max-height: 100%;
     }
+}
+h1 {
+min-height: 1em;
+min-width: 3.25em;
 }
 h2 {
     font-size: 1.8em;
