@@ -4,6 +4,8 @@ $font-body: 'Oxygen', sans-serif;
 /* colors */
 $fade-black:#323232;
 $about-white: #F5F5F5;
+$off-white: #f8f8f8; 
+$color-primary-0: #A5A5A5;
 $color-primary-2: #E3E3E3;
 
 
@@ -73,7 +75,7 @@ $color-primary-2: #E3E3E3;
     background-color: $color-primary-2;
 }
 #fun-fact {
-    background-color:#A5A5A5;
+    background-color:$color-primary-0;
 }
 #shelina {
     background-color: $color-primary-2;
@@ -235,7 +237,7 @@ $color-primary-2: #E3E3E3;
 }
 
 a {
-    color: #f8f8f8;
+    color: $off-white;
     font-family: $font-body;
     font-weight: 600;
     text-decoration: none;
@@ -284,7 +286,7 @@ h2 {
     margin-bottom: .7em;
     font-family: $font-body;
     text-transform: uppercase;
-    color: #f8f8f8;
+    color: $off-white;
 }
 ul {
     display: inline-block;
@@ -296,7 +298,7 @@ ul {
 }
 
 #c-links:hover{
-    color: #f8f8f8;
+    color: $off-white;
 }
 
 .contact-head {
