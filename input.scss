@@ -159,10 +159,10 @@ html {
     color:$fade-black;  
     text-align: center;
     padding: 1em;
-    border-width: 5px;
+   /* border-width: 5px;
     border-style: solid;
     border-radius: 5px;
-    border-color: $fade-black;
+    border-color: $fade-black; */
     max-width: 75%;
     margin-left: auto;
     margin-right: auto;
@@ -179,6 +179,7 @@ html {
       margin: auto;
       justify-content: center;
       max-width: 100%;
+
   }
 }
 
@@ -193,6 +194,7 @@ html {
         padding: 1em;
         justify-content: center;
         max-width: 75%;
+
     }
  }
 

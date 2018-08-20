@@ -150,10 +150,10 @@ html {
   color: #323232;
   text-align: center;
   padding: 1em;
-  border-width: 5px;
-  border-style: solid;
-  border-radius: 5px;
-  border-color: #323232;
+  /* border-width: 5px;
+   border-style: solid;
+   border-radius: 5px;
+   border-color: $fade-black; */
   max-width: 75%;
   margin-left: auto;
   margin-right: auto;
