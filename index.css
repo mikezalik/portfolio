@@ -26,6 +26,14 @@ html {
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
+#banner-contact {
+  display: flex;
+  justify-content: right;
+  text-align: left;
+  margin-left: 32em;
+  margin-right: auto;
+  max-width: 75%; }
+
 #about {
   display: flex;
   flex-direction: column;
@@ -267,6 +275,9 @@ a {
   text-decoration: none;
   transition: color .5s ease-in; }
 
+#contact-link {
+  color: #323232; }
+
 body {
   font-family: "Oxygen", sans-serif;
   display: block;
@@ -311,7 +322,8 @@ h2 {
   color: #f8f8f8; }
 
 ul {
-  display: inline-block; }
+  display: inline-block;
+  list-style: none; }
 
 #c-links {
   color: #323232;

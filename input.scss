@@ -27,6 +27,8 @@ html {
 }
 
 #banner-contact {
+    position: absolute;
+    right: 10px;
     display: flex;
     justify-content: right;
     text-align: left;
@@ -312,6 +314,11 @@ a {
     text-decoration: none;
     transition: color .5s ease-in;
 }
+
+#contact-link {
+  color: $fade-black;
+}
+
 body {
     font-family: $font-body;
     display: block;
@@ -363,6 +370,7 @@ h2 {
 }
 ul {
     display: inline-block;
+    list-style: none;
 }
 
 #c-links{
