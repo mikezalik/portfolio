@@ -35,7 +35,9 @@ html {
   text-align: left;
   margin-left: 32em;
   margin-right: auto;
-  max-width: 75%; }
+  max-width: 75%;
+  font-size: 1.5vmin;
+  line-height: 2em; }
 
 @media all and (max-width: 780px) {
   #banner-contact {
@@ -48,7 +50,6 @@ html {
     margin-left: 15em;
     margin-right: auto;
     max-width: 75%;
-    font-size: .5em;
     line-height: 2em; } }
 #about {
   display: flex;
