@@ -26,6 +26,15 @@ html {
   box-sizing: border-box;
 }
 
+#banner-contact {
+    display: flex;
+    justify-content: right;
+    text-align: left;
+    margin-left: 32em;
+    margin-right: auto;
+    max-width: 75%;
+    }
+
 #about {
     display: flex;
     flex-direction: column;
