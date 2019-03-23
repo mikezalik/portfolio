@@ -25,7 +25,8 @@
 @media all and (max-width: 480px) */
 * {
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale; }
+  -moz-osx-font-smoothing: grayscale;
+  color: #596170; }
 
 html {
   -webkit-box-sizing: border-box;
@@ -91,7 +92,7 @@ html {
   justify-content: center;
   max-width: 100%;
   text-align: center;
-  background-color: #323232;
+  background-color: #596170;
   padding-bottom: 4em;
   padding-top: 1em; }
 
@@ -185,7 +186,7 @@ html {
   left: 0;
   height: 300px;
   font-family: "Crimson Text", serif;
-  color: #323232;
+  color: #596170;
   margin-left: auto;
   margin-right: auto;
   font-size: 38px;
@@ -211,7 +212,7 @@ html {
   /* border-width: 5px;
    border-style: solid;
    border-radius: 5px;
-   border-color: $fade-black; */
+   border-color: $cool-1; */
   max-width: 75%;
   margin-left: auto;
   margin-right: auto;
@@ -301,7 +302,7 @@ a {
   transition: color .5s ease-in; }
 
 #contact-link {
-  color: #323232; }
+  color: #596170; }
 
 body {
   font-family: "Oxygen", sans-serif;
@@ -350,14 +351,14 @@ ul {
   list-style: none; }
 
 #c-links {
-  color: #323232;
+  color: #596170;
   font-style: italic; }
 
 #c-links:hover {
   color: #f8f8f8; }
 
 .contact-head {
-  color: #323232; }
+  color: #596170; }
 
 .svg {
   position: relative;

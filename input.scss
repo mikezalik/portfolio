@@ -30,6 +30,7 @@ $cool-1: #596170;
 * {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: $cool-1;
 }
 
 
@@ -106,7 +107,7 @@ html {
     justify-content: center;
     max-width: 100%;
     text-align: center;
-    background-color: $fade-black;
+    background-color: $cool-1;
     padding-bottom: 4em;
     padding-top:1em;
 }
@@ -210,7 +211,7 @@ html {
   left: 0;
   height: 300px;
   font-family: $font-header;
-  color: $fade-black;
+  color: $cool-1;
   margin-left: auto;
   margin-right: auto;
   font-size: 38px;
@@ -236,7 +237,7 @@ html {
    /* border-width: 5px;
     border-style: solid;
     border-radius: 5px;
-    border-color: $fade-black; */
+    border-color: $cool-1; */
     max-width: 75%;
     margin-left: auto;
     margin-right: auto;
@@ -352,7 +353,7 @@ a {
 }
 
 #contact-link {
-  color: $fade-black;
+  color: $cool-1;
 }
 
 body {
@@ -409,7 +410,7 @@ ul {
 }
 
 #c-links{
-    color: $fade-black;
+    color: $cool-1;
     font-style: italic;
 }
 
@@ -418,7 +419,7 @@ ul {
 }
 
 .contact-head {
-    color: $fade-black;
+    color: $cool-1;
 }
 
 .svg {
