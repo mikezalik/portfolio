@@ -378,4 +378,8 @@ object {
 footer {
   background-color: #EEE5DE; }
 
+.description {
+  padding-left: 6em;
+  padding-right: 6em; }
+
 /*# sourceMappingURL=styles.css.map */
