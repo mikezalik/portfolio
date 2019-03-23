@@ -9,6 +9,8 @@ $color-primary-0: #A5A5A5;
 $color-primary-2: #E3E3E3;
 
 $warm-1: #EEE5DE;
+$cool-2: #636892;
+$cool-1: #4030e8;
 
 .color-primary-0 { color: #A5A5A5 }	/*Primary color*/
 .color-primary-1 { color: #FFFFFF }
@@ -141,10 +143,10 @@ html {
     background-color: $warm-1;
 }
 #fun-fact {
-    background-color:$color-primary-0;
+    background-color:$warm-1
 }
 #shelina {
-    background-color: $color-primary-2;
+    background-color: $warm-1;
 }
 .contact-social {
     display: flex;
@@ -159,7 +161,7 @@ html {
     padding: 1em;
 }
 .nav-bar {
-    background-color: $fade-black;
+    background-color: $cool-2;
     font-family: Arial, Helvetica, sans-serif;
     font-size: .8rem;
     text-align: center;
@@ -223,8 +225,8 @@ html {
 }
 .top-header {
     font-family: $font-header;
-    font-size: 13vmin; 
-    color:$fade-black;  
+    font-size: 10vmin; 
+    color:$cool-1;  
     text-align: center;
     padding: 1em;
    /* border-width: 5px;
