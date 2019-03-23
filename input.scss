@@ -8,6 +8,8 @@ $off-white: #f8f8f8;
 $color-primary-0: #A5A5A5;
 $color-primary-2: #E3E3E3;
 
+$warm-1: #EEE5DE;
+
 .color-primary-0 { color: #A5A5A5 }	/*Primary color*/
 .color-primary-1 { color: #FFFFFF }
 .color-primary-2 { color: #E3E3E3 }
@@ -19,6 +21,12 @@ $color-primary-2: #E3E3E3;
 @media all and (max-width: 980px)
 @media all and (max-width: 736px)
 @media all and (max-width: 480px) */
+
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
 
 html {
   -webkit-box-sizing: border-box;
@@ -56,16 +64,14 @@ html {
         }
    }
 
-
-
-
 #about {
     display: flex;
     flex-direction: column;
     justify-content: center;
     max-width: 100%;
-    background-color:$about-white;
+    background-color:$warm-1;
 }
+
 .about-container {
   display: flex;
   text-align: center;
@@ -77,6 +83,7 @@ html {
   margin-bottom: 1em;
   padding: 1em;
 }
+
 .about-content{
   max-width: 100%;
   margin-left: auto;
@@ -115,7 +122,7 @@ html {
     justify-content: center;
     max-width: 100%;
     text-align: center;
-    background-color:$about-white;
+    background-color:$warm-1;
     padding-top: 1em;
     padding-bottom: 1em;
 }
@@ -128,10 +135,10 @@ html {
     margin-right: auto;
 }
 #contact {
-    background-color: $about-white;
+    background-color: $warm-1;
 }
 #stormy {
-    background-color: $color-primary-2;
+    background-color: $warm-1;
 }
 #fun-fact {
     background-color:$color-primary-0;
@@ -173,7 +180,8 @@ html {
 }
 
 .banner{
-    background-image: url("img/white-brick.jpg");
+    /* background-image: url("img/white-brick.jpg"); */
+    background-color: $warm-1;
     background-size: cover;
     background-repeat: no-repeat;
     opacity: 0.8;
@@ -423,3 +431,7 @@ ul {
     object {
         width: 20%;
   }
+
+footer {
+  background-color: $warm-1;
+}
