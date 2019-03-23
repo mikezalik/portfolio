@@ -10,9 +10,10 @@ $color-primary-2: #E3E3E3;
 
 $warm-1: #EEE5DE;
 $cool-2: #636892;
-$cool-1: #4a545f;
+$cool-1: #596170;
 
-/* #4030e8 */
+/* #4030e8
+#4a545f */
 
 .color-primary-0 { color: #A5A5A5 }	/*Primary color*/
 .color-primary-1 { color: #FFFFFF }
@@ -231,6 +232,7 @@ html {
     color:$cool-1;  
     text-align: center;
     padding: 1em;
+    line-height: 1em;
    /* border-width: 5px;
     border-style: solid;
     border-radius: 5px;

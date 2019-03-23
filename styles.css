@@ -1,6 +1,7 @@
 /* fonts */
 /* colors */
-/* #4030e8 */
+/* #4030e8
+#4a545f */
 .color-primary-0 {
   color: #A5A5A5; }
 
@@ -203,9 +204,10 @@ html {
 .top-header {
   font-family: "Crimson Text", serif;
   font-size: 10vmin;
-  color: #4a545f;
+  color: #596170;
   text-align: center;
   padding: 1em;
+  line-height: 1em;
   /* border-width: 5px;
    border-style: solid;
    border-radius: 5px;
