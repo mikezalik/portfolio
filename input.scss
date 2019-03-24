@@ -8,15 +8,19 @@ $off-white: #f8f8f8;
 $color-primary-0: #A5A5A5;
 $color-primary-2: #E3E3E3;
 
-$warm-1: #EEE5DE;
-$cool-2: #636892;
-$cool-1: #596170;
+$warm-1: #000000;
+$cool-2: #323232;
+$cool-1: #ECECEC;
 
 /* #4030e8
-#4a545f */
+#4a545f
+#EEE5DE 
+#636892
+#596170
+*/
 
 .color-primary-0 { color: #A5A5A5 }	/*Primary color*/
-.color-primary-1 { color: #FFFFFF }
+.color-primary-1 { color: rgb(49, 49, 49) }
 .color-primary-2 { color: #E3E3E3 }
 .color-primary-3 { color: #858585 }
 .color-primary-4 { color: #676868 }

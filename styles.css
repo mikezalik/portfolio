@@ -1,13 +1,17 @@
 /* fonts */
 /* colors */
 /* #4030e8
-#4a545f */
+#4a545f
+#EEE5DE 
+#636892
+#596170
+*/
 .color-primary-0 {
   color: #A5A5A5; }
 
 /*Primary color*/
 .color-primary-1 {
-  color: #FFFFFF; }
+  color: #313131; }
 
 .color-primary-2 {
   color: #E3E3E3; }
@@ -26,7 +30,7 @@
 * {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: #596170; }
+  color: #ECECEC; }
 
 html {
   -webkit-box-sizing: border-box;
@@ -63,7 +67,7 @@ html {
   flex-direction: column;
   justify-content: center;
   max-width: 100%;
-  background-color: #EEE5DE; }
+  background-color: #000000; }
 
 .about-container {
   display: flex;
@@ -92,7 +96,7 @@ html {
   justify-content: center;
   max-width: 100%;
   text-align: center;
-  background-color: #596170;
+  background-color: #ECECEC;
   padding-bottom: 4em;
   padding-top: 1em; }
 
@@ -109,7 +113,7 @@ html {
   justify-content: center;
   max-width: 100%;
   text-align: center;
-  background-color: #EEE5DE;
+  background-color: #000000;
   padding-top: 1em;
   padding-bottom: 1em; }
 
@@ -122,16 +126,16 @@ html {
   margin-right: auto; }
 
 #contact {
-  background-color: #EEE5DE; }
+  background-color: #000000; }
 
 #stormy {
-  background-color: #EEE5DE; }
+  background-color: #000000; }
 
 #fun-fact {
-  background-color: #EEE5DE; }
+  background-color: #000000; }
 
 #shelina {
-  background-color: #EEE5DE; }
+  background-color: #000000; }
 
 .contact-social {
   display: flex;
@@ -145,7 +149,7 @@ html {
   padding: 1em; }
 
 .nav-bar {
-  background-color: #636892;
+  background-color: #323232;
   font-family: Arial, Helvetica, sans-serif;
   font-size: .8rem;
   text-align: center;
@@ -166,7 +170,7 @@ html {
 
 .banner {
   /* background-image: url("img/white-brick.jpg"); */
-  background-color: #EEE5DE;
+  background-color: #000000;
   background-size: cover;
   background-repeat: no-repeat;
   opacity: 0.8;
@@ -186,7 +190,7 @@ html {
   left: 0;
   height: 300px;
   font-family: "Crimson Text", serif;
-  color: #596170;
+  color: #ECECEC;
   margin-left: auto;
   margin-right: auto;
   font-size: 38px;
@@ -205,7 +209,7 @@ html {
 .top-header {
   font-family: "Crimson Text", serif;
   font-size: 10vmin;
-  color: #596170;
+  color: #ECECEC;
   text-align: center;
   padding: 1em;
   line-height: 1em;
@@ -302,7 +306,7 @@ a {
   transition: color .5s ease-in; }
 
 #contact-link {
-  color: #596170; }
+  color: #ECECEC; }
 
 body {
   font-family: "Oxygen", sans-serif;
@@ -351,14 +355,14 @@ ul {
   list-style: none; }
 
 #c-links {
-  color: #596170;
+  color: #ECECEC;
   font-style: italic; }
 
 #c-links:hover {
   color: #f8f8f8; }
 
 .contact-head {
-  color: #596170; }
+  color: #ECECEC; }
 
 .svg {
   position: relative;
@@ -376,7 +380,7 @@ object {
   width: 20%; }
 
 footer {
-  background-color: #EEE5DE; }
+  background-color: #000000; }
 
 .description {
   padding-left: 6em;
