@@ -30,7 +30,7 @@
 * {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: #ECECEC; }
+  color: #000000; }
 
 html {
   -webkit-box-sizing: border-box;
@@ -67,7 +67,7 @@ html {
   flex-direction: column;
   justify-content: center;
   max-width: 100%;
-  background-color: #000000; }
+  background-color: #F2F2F2; }
 
 .about-container {
   display: flex;
@@ -96,7 +96,7 @@ html {
   justify-content: center;
   max-width: 100%;
   text-align: center;
-  background-color: #ECECEC;
+  background-color: #000000;
   padding-bottom: 4em;
   padding-top: 1em; }
 
@@ -113,7 +113,7 @@ html {
   justify-content: center;
   max-width: 100%;
   text-align: center;
-  background-color: #000000;
+  background-color: #F2F2F2;
   padding-top: 1em;
   padding-bottom: 1em; }
 
@@ -126,16 +126,16 @@ html {
   margin-right: auto; }
 
 #contact {
-  background-color: #000000; }
+  background-color: #F2F2F2; }
 
 #stormy {
-  background-color: #000000; }
+  background-color: #F2F2F2; }
 
 #fun-fact {
-  background-color: #000000; }
+  background-color: #F2F2F2; }
 
 #shelina {
-  background-color: #000000; }
+  background-color: #F2F2F2; }
 
 .contact-social {
   display: flex;
@@ -170,7 +170,7 @@ html {
 
 .banner {
   /* background-image: url("img/white-brick.jpg"); */
-  background-color: #000000;
+  background-color: #F2F2F2;
   background-size: cover;
   background-repeat: no-repeat;
   opacity: 0.8;
@@ -190,7 +190,7 @@ html {
   left: 0;
   height: 300px;
   font-family: "Crimson Text", serif;
-  color: #ECECEC;
+  color: #000000;
   margin-left: auto;
   margin-right: auto;
   font-size: 38px;
@@ -209,7 +209,7 @@ html {
 .top-header {
   font-family: "Crimson Text", serif;
   font-size: 10vmin;
-  color: #ECECEC;
+  color: #000000;
   text-align: center;
   padding: 1em;
   line-height: 1em;
@@ -306,7 +306,7 @@ a {
   transition: color .5s ease-in; }
 
 #contact-link {
-  color: #ECECEC; }
+  color: #000000; }
 
 body {
   font-family: "Oxygen", sans-serif;
@@ -355,14 +355,14 @@ ul {
   list-style: none; }
 
 #c-links {
-  color: #ECECEC;
+  color: #000000;
   font-style: italic; }
 
 #c-links:hover {
   color: #f8f8f8; }
 
 .contact-head {
-  color: #ECECEC; }
+  color: #000000; }
 
 .svg {
   position: relative;
@@ -380,7 +380,7 @@ object {
   width: 20%; }
 
 footer {
-  background-color: #000000; }
+  background-color: #F2F2F2; }
 
 .description {
   padding-left: 6em;
